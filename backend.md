@@ -14,6 +14,9 @@ Now we have all the deployments done , let's push our code to our git repository
   * push to dev branch using -->  git push origin dev
     
   * Also push entire source code to master branch to get a realtime deployment feel of project  -->   git push origin master
+
+![image5](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/dc284ed5-2718-4132-b3d1-1822261cc5f1)
+
     
   * Later in project if a developer makes changes in dev , i.e, adding features , it can be merged in master branch on proper approvals and tests
     
