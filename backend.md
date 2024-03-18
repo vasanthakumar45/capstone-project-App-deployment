@@ -81,6 +81,31 @@ The Docker image is successfully pushed to our Docker Hub account in the "dev_re
 
 ![image19](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/9ac433a7-f4a8-4219-b015-630b64182f98)
 
+--------------------------------------------------------------------------------------------------------------------------------
+Task 7 : AWS
+------------
+
+Launch a t2.micro instance and deploy the created application \
+
+Configure SG as below: \
+
+Whoever has ip address can access the application
+login to server should be made from my ip address
+
+![image20](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/7c9da6d0-7688-45ef-a599-4ac7ad81140e)
+
+
+Following security inbound rules as mentioned in above requirements and launch an instance
+
+![image21](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/fa5aa0fe-7be6-4f05-b237-0fe908848cf8)
+
+Connect to EC2 instance connect by clicking on Connect , a new tab opened with ssh connection terminal, output image is given below
+
+![image22](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/0165df5c-dd58-4dab-83af-7237ad31893f)
+
+
+
+
 
 
 
