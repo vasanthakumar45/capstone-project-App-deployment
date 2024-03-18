@@ -1,79 +1,78 @@
-Task 5 : Docker hub
---------------------
+Task 5: Docker Hub
+-------------------
 
-• Create 2 repos "dev" and "prod" to push images.
-"Prod" repo must be private and "dev" repo can be public
+Create two repositories named "dev" and "prod" on Docker Hub to push images. The "Prod" repository must be private, while the "dev" repository can be public.
 
-Use following commands to execute bash scripts
+Use the following commands to execute the Bash scripts:
 
-./build.sh --- to build docker image
+bash
+Copy code
+./build.sh   # To build the Docker image
+./deploy.sh <target>   # Here, 'target' refers to 'dev' or 'prod' on Docker Hub to push the image to the respective repository
+Example usage:
 
-./deploy.sh <target> --- here targer refers to dev or prod of dockerhub so that image gets pushed to respective repository
+bash
+Copy code
+./deploy.sh dev   # Docker image is pushed to the dev repository on Docker Hub
+./deploy.sh prod   # Docker image is pushed to the prod repository on Docker Hub
+image5
 
-./deploy.sh dev ---> docker image is pushed to my dockerhub account
+Task 6: Jenkins Installation
 
-./deploy.sh prod --->docker image is pushed to my dockerhub account
+Install Jenkins on Ubuntu on my local machine.
+Steps to Install Jenkins:
 
-![image5](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/76d5188b-430c-4b1e-99fd-80e37aacc196)
+Install Jenkins on Ubuntu:
 
-----------------------------------------------------------------------------------------------------------------------------------------
+image7
 
-Task 6 : Jenkins
------------------
+After installing Jenkins, navigate to your browser and type localhost:8080 to access the Jenkins login page.
 
-Jenkins Installation
------------------------
+image8
 
-Install Jenkins to insert of Ubuntu in my local machine.
+Enter your username and password, and complete the setup steps. Then, create two Jenkins jobs named 'dev' and 'prod'.
 
-Jenkins installed steps given below
+image9
 
-![image7](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2f6d30ef-9225-4cca-a432-e573388bb81e)
+Configure Jenkins Jobs for Auto Build Trigger:
 
-After installed jenkins--> Go to ou browser and type localhost:8080 -> I got a jenkins login page 
+Under Job Configuration:
 
-![image8](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/478dbe11-7ece-4756-bbdd-5d0ebfcb606f)
+Source Code Management: Choose Git and add your repository. Select the appropriate credentials.
+Branches to Build: Choose */dev.
+image11
+image12
 
-After enter username and password and done with some steps, we creating two jenkins jobs like 'dev' and 'prod'
+Build Triggers: Enable GitHub hook trigger for GITScm polling.
+image13
 
-![image9](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2b152e9b-7914-44e9-8d7e-c021970bd794)
+Build Steps: Select execute shell and specify the script.
+image14
 
-Now jenkins task to create auto build trigger from dev and master branch
----------------------------------------------------------------------------
+After creating the pipeline, save it, and trigger the build to ensure everything works properly.
 
-under configuration -> source code management -> choose Git and add our repo here and select the credentials we've made earlier for github -> under Branches to build choose */dev
+image10
+image15
 
-![image11](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/727b2835-8e75-46cb-a8f2-28e6e5e27348)
+After the pipeline is successfully created, review the console output.
 
-![image12](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/02b34d14-ecf3-4844-86e9-c380f7245df8)
+image16
 
-Under build triggers enable GitHub hook trigger for GITScm polling
+Successfully create the 'prod' job and verify the output.
 
-![image13](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f40ef93d-5974-4b6f-8a42-8ba7274f51ae)
+image17
 
-Under Build steps select execute shell and type the script
+The Docker image is successfully pushed to our Docker Hub account in the "dev_repo" and "prod_repo".
 
-![image14](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/b7b35d3c-8dea-41a0-a70d-b55813765008)
+image18
+image19
 
-After pipeline is created click save and do the Build now to check if everything is working properly or not
-
-![image10](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/47afb4cb-94dd-4a6b-911a-48d5fa8c1ccd)
-
-![image15](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f31d8e70-169d-47d9-91c2-85e50db64ace)
-
-After pipeline is successfully created and console output is given below
-
-![image16](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/d5d9d1bf-d7a2-4911-bedb-0528f16a105f)
+These corrections aim to provide clear and concise instructions for each task. Let me know if you need further assistance or modifications!
 
 
-I have also succesfully created prod job and screenshot output is below
 
-![image17](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/7ed427ec-0d24-4e6f-9626-1d4ad96276f7)
 
-The docker image is succesfully pushed to our docker hub account in "dev_repo" and "prod_repo" its output image is given below
 
-![image18](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6352e7d2-0b27-4af3-ad50-6f9d7ae9c1af)
 
-![image19](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/9ac433a7-f4a8-4219-b015-630b64182f98)
 
 
