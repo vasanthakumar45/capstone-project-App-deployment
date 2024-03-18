@@ -61,16 +61,16 @@ After pipeline is created click save and do the Build now to check if everything
 
 ![image15](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f31d8e70-169d-47d9-91c2-85e50db64ace)
 
-After pipeline is successfull and console output is given below
+After pipeline is successfully created and console output is given below
 
 ![image16](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/d5d9d1bf-d7a2-4911-bedb-0528f16a105f)
 
 
-I have also succesfully created prod job and screensshot is output is below
+I have also succesfully created prod job and screenshot output is below
 
 ![image17](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/7ed427ec-0d24-4e6f-9626-1d4ad96276f7)
 
-The docker image is succesfully pushed to our docker hub account in dev repo and prod repo its outpu omage is given below
+The docker image is succesfully pushed to our docker hub account in "dev_repo" and "prod_repo" its output image is given below
 
 ![image18](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6352e7d2-0b27-4af3-ad50-6f9d7ae9c1af)
 
