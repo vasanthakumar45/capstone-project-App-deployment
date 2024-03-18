@@ -70,3 +70,10 @@ I have also succesfully created prod job and screensshot is output is below
 
 ![image17](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/7ed427ec-0d24-4e6f-9626-1d4ad96276f7)
 
+The docker image is succesfully pushed to our docker hub account in dev repo and prod repo its outpu omage is given below
+
+![image18](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6352e7d2-0b27-4af3-ad50-6f9d7ae9c1af)
+
+![image19](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/9ac433a7-f4a8-4219-b015-630b64182f98)
+
+
