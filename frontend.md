@@ -91,22 +91,7 @@ e206516e67b2   app:v1    "docker-entrypoint.s…"   3 minutes ago   Up 3 minutes
 
 root@Vasanth:~/devops-build# vi docker-compose.yaml
 
-root@Vasanth:~/devops-build# cat docker-compose.yaml
-
-version: '3'
-
-services:
-
-  service1:
-  
-    image: app:v1
-    
-    container_name: test
-    
-    ports:
-    
-      - '80:80'
-
+![image2](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/ffb102f2-08ae-44fa-87cc-8c5f5ff3a3ec)
 
 root@Vasanth:~/devops-build# docker-compose up -d
 
