@@ -66,4 +66,7 @@ After pipeline is successfull and console output is given below
 ![image16](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/d5d9d1bf-d7a2-4911-bedb-0528f16a105f)
 
 
+I have also succesfully created prod job and screensshot is output is below
+
+![image17](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/7ed427ec-0d24-4e6f-9626-1d4ad96276f7)
 
