@@ -59,4 +59,11 @@ After pipeline is created click save and do the Build now to check if everything
 
 ![image10](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/47afb4cb-94dd-4a6b-911a-48d5fa8c1ccd)
 
+![image15](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f31d8e70-169d-47d9-91c2-85e50db64ace)
+
+After pipeline is successfull and console output is given below
+
+![image16](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/d5d9d1bf-d7a2-4911-bedb-0528f16a105f)
+
+
 
