@@ -1,4 +1,5 @@
 Application Deployment
+----------------------
 
 (Deploy the given react appliation to a production ready state)
 
@@ -125,7 +126,7 @@ docker-compose build
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-Version Control
+Task 4 : Version Control
 -----------------
 
 Now we have all the deployments done , let's push our code to our git repository where we can store and make necessary changes to source code in real-time.
