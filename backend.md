@@ -16,5 +16,15 @@ Use following commands to execute bash scripts
 
 ![image5](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/76d5188b-430c-4b1e-99fd-80e37aacc196)
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Task 6 : Jenkins
+-----------------
+
+Jenkins Installation
+-----------------------
+Install Jenkins to insert of Ubuntu in my local machine.
+
+
 
     
