@@ -33,17 +33,8 @@ we have createed Dockerfile and docker-compose file
 
 root@Vasanth:~/devops-build# vi Dockerfile
 
-root@Vasanth:~/devops-build# cat Dockerfile
+![image1](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/d363fc27-de9d-40aa-9441-5b9cd909813f)
 
-FROM node:14
-
-WORKDIR /app
-
-Run git clone https://github.com/vasanthakumar45/devops-build .
-
-EXPOSE 80
-
-CMD ["npx", "serve", "-s", "-l", "80", "build"]
 
 root@Vasanth:~/devops-build# docker build -t app:v1 .
 
