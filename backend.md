@@ -23,8 +23,11 @@ Task 6 : Jenkins
 
 Jenkins Installation
 -----------------------
+
 Install Jenkins to insert of Ubuntu in my local machine.
 
+Jenkins installed steps given below
 
+![image7](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2f6d30ef-9225-4cca-a432-e573388bb81e)
 
     
