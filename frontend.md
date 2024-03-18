@@ -97,21 +97,8 @@ root@Vasanth:~/devops-build# docker-compose up -d
 
 Creating test ... done
 
-root@Vasanth:~/devops-build# docker-compose down
 
-Stopping test ... done
-
-Removing test ... done
-
-
-
-root@Vasanth:~/devops-build# docker-compose up
-
-Creating network "devops-build_default" with the default driver
-
-Creating test ... done
-
-Attaching to test
-
+when we hit public Ipv4 address on port 80 we should see the application running on my browser
+![image3](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f2e21c87-9b40-4d83-8748-9616c7c4343d)
 
 
