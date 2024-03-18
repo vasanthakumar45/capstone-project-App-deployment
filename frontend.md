@@ -22,8 +22,9 @@ root@Vasanth:~/devops-build/build# ls
  asset-manifest.json      favicon.ico  index.html   logo512.png    robots.txt
 _redirects  build     logo192.png  manifest.json  static
 
-
-Task 2: Docker:
+---------------------------------------------------------------------------------------------------------------------------------
+Task 2: Docker
+--------------
 
 • Dockerize the application by creating a Dockerfile
 
@@ -107,6 +108,8 @@ Hence we successfully deployed our app on port 80 with nginx and docker
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Task 3 : Write 2 scripts
+-------------------------
+
 
 • build.sh - for building docker images
 
@@ -122,7 +125,9 @@ docker-compose build
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-Task 4 : Docker hub:
+Task 4 : Docker hub
+--------------------
+
 
 • Create 2 repos "dev" and "prod" to push images.
 "Prod" repo must be private and "dev" repo can be public
