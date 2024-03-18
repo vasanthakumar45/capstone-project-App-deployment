@@ -1,6 +1,5 @@
-Task 4 : Docker hub
+Task 5 : Docker hub
 --------------------
-
 
 • Create 2 repos "dev" and "prod" to push images.
 "Prod" repo must be private and "dev" repo can be public
