@@ -99,6 +99,25 @@ Creating test ... done
 
 
 when we hit public Ipv4 address on port 80 we should see the application running on my browser
+
 ![image3](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f2e21c87-9b40-4d83-8748-9616c7c4343d)
+
+Hence we successfully deployed our app on port 80 with nginx and docker
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Task 3 : Write 2 scripts
+
+• build.sh - for building docker images
+
+#!/bin/bash
+
+echo "Running docker-compose build..."
+
+docker-compose build
+
+• deploy.sh - for deploying the image to server
+
+![image4](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/030c8fe5-0ed2-4237-b711-503cb8c77a3e)
 
 
