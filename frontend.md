@@ -9,9 +9,12 @@ Repo URL : https://github.com/sriram-R-krishnan/devops-build
   
 root@Vasanth:~# ls
 devops-build
+
 root@Vasanth:~# cd devops-build/
+
 root@Vasanth:~/devops-build# ls
 build
+
 root@Vasanth:~/devops-build# cd build
 
 root@Vasanth:~/devops-build/build# ls
