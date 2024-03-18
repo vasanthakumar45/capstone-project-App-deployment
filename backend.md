@@ -30,4 +30,11 @@ Jenkins installed steps given below
 
 ![image7](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2f6d30ef-9225-4cca-a432-e573388bb81e)
 
-    
+After installed jenkins--> Go to ou browser and type localhost:8080 -> I got a jenkins login page 
+
+![image8](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/478dbe11-7ece-4756-bbdd-5d0ebfcb606f)
+
+After enter username and password and done with some steps, we creating two jenkins jobs like 'dev' and 'prod'
+
+![image9](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2b152e9b-7914-44e9-8d7e-c021970bd794)
+
