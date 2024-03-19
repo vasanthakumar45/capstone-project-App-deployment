@@ -1,8 +1,6 @@
 Application Deployment
 ----------------------
 
-(Deploy the given react appliation to a production ready state)
-
 Task 1: We need to clone the following repository and deploy the application on port 80 [HTTP]
 Repo URL : https://github.com/sriram-R-krishnan/devops-build
 
@@ -100,11 +98,11 @@ root@Vasanth:~/devops-build# docker-compose up -d
 Creating test ... done
 
 
-when we hit public Ipv4 address on port 80 we should see the application running on my browser
+Go to our browser and type localhost, the application should be visible and running in the browser
 
 ![image3](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f2e21c87-9b40-4d83-8748-9616c7c4343d)
 
-Hence we successfully deployed our app on port 80 with nginx and docker
+Hence we successfully deployed our app on port 80 with docker
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -129,7 +127,7 @@ docker-compose build
 Task 4 : Version Control
 -----------------
 
-Now we have all the deployments done , let's push our code to our git repository where we can store and make necessary changes to source code in real-time.
+Now we have all the deployments done , let's push our code to our git repository.
 
 *Initialize git repo locally using  git init
 
