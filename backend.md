@@ -103,7 +103,54 @@ Connect to EC2 instance connect by clicking on Connect , a new tab opened with s
 
 ![image22](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/0165df5c-dd58-4dab-83af-7237ad31893f)
 
+-------------------------------------------------------------------------------------------------------------------------------
 
+Task 8 : Monitoring
+
+• Setup a monitoring system to check the health status of the application. (Open-source)
+
+* we have using cloud watch to check the health status of the application
+
+* open cloud watch & click the matrics and copy the we create EC2 instance ID and paste to the cloud watch
+
+* Enable to cpu utilization in cloud watch metrics state
+
+![image23](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2f59df7d-8079-4567-8f51-f1d83f47aada)
+
+![image24](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/c675a05d-b96c-4bc8-b905-37ec57d15c2c)
+
+In same page click and open All Alarm do configuration steps
+
+![image25](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/4dc06bc7-5dff-4065-a628-807ceb81d158)
+
+![image26](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/78742230-db0f-40bd-97e5-15db785a0b3f)
+
+![image27](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/aa23dcf7-ee78-41df-92d6-07882fc472bf)
+
+![image28](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/900eaee8-b541-409a-b976-b6833a592ee9)
+
+![image29](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/9053bd05-57f1-4958-a0b1-e180f54bb9e3)
+
+Check the wheather to cloud watch created Alarms 
+
+![image30](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6a81cbd9-0051-4504-81fb-c752b15ebbc2)
+
+Open & connect our created EC2 machines and installed some steps for given below
+
+![image31](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/dbfe5b4e-1eb9-42ae-98ab-ea02a9e019e5)
+
+![image35](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/f4ffd37a-7082-42c5-9e28-081cd85e5e50)
+
+![image32](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6d91502a-da6d-4efb-a185-d8d724eca927)
+
+ Sending notifications to our mail id. its wheather cheaking in cloud watch
+ -----------------------------------------------------------------------------
+
+ ![image33](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/365eaf0d-5022-483e-813c-d1c8ebd11fe4)
+ 
+![image34](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/b34e1f81-a75b-476c-9f26-48f423334613)
+
+ 
 
 
 
