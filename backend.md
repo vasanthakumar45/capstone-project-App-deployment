@@ -109,17 +109,13 @@ Task 8 : Monitoring
 
 • Setup a monitoring system to check the health status of the application. (Open-source)
 
-* we have using cloud watch to check the health status of the application
-
-* open cloud watch & click the matrics and copy the we create EC2 instance ID and paste to the cloud watch
-
-* Enable to cpu utilization in cloud watch metrics state
+We utilized CloudWatch to monitor the health status of the application. In CloudWatch, we accessed the metrics, copied the EC2 instance ID, and enabled CPU utilization monitoring. Below are screenshots illustrating the process:
 
 ![image23](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/2f59df7d-8079-4567-8f51-f1d83f47aada)
 
 ![image24](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/c675a05d-b96c-4bc8-b905-37ec57d15c2c)
 
-In same page click and open All Alarm do configuration steps
+We then configured alarms for these metrics:
 
 ![image25](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/4dc06bc7-5dff-4065-a628-807ceb81d158)
 
@@ -131,11 +127,11 @@ In same page click and open All Alarm do configuration steps
 
 ![image29](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/9053bd05-57f1-4958-a0b1-e180f54bb9e3)
 
-Check the wheather to cloud watch created Alarms 
+Afterward, we verified the creation of alarms in CloudWatch:
 
 ![image30](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6a81cbd9-0051-4504-81fb-c752b15ebbc2)
 
-Open & connect our created EC2 machines and installed some steps for given below
+Additionally, we connected to our created EC2 machines and installed necessary software, as shown below:
 
 ![image31](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/dbfe5b4e-1eb9-42ae-98ab-ea02a9e019e5)
 
@@ -143,7 +139,7 @@ Open & connect our created EC2 machines and installed some steps for given below
 
 ![image32](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/6d91502a-da6d-4efb-a185-d8d724eca927)
 
- Sending notifications to our mail id. its wheather cheaking in cloud watch
+ Finally, we configured notifications to be sent to our email address for weather monitoring using CloudWatch:
  -----------------------------------------------------------------------------
 
  ![image33](https://github.com/vasanthakumar45/capstone-project-App-deployment/assets/154395432/365eaf0d-5022-483e-813c-d1c8ebd11fe4)
